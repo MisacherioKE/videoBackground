@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.mainDiv{
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.opacity{
+    height: 100vh;
+    width: 100%;
+    opacity: 0.5;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+.vida{
+    max-width: 100%;
+    position: absolute;
+    bottom: 1vh;
+}
+.centreDiv{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    text-align: center;
+
+}
+.centreDiv a{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 15px;
+    border-radius: 20px;
+}
+.centreDiv p{
+    color: rgb(207, 203, 203);
+}
+.centreDiv h1{
+    color: white;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+.navBar2{
+    position: absolute;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navBar2 img{
+    height: 80px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.navBar2 a{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 15px;
+    border-radius: 20px;
+    margin-right: 0px;
+}
+.listItem{
+    display: inline;
+    margin-left: 30px;
+}
+.circle{
+    position: absolute;
+    top: 90%;
+    left: 53%;
+    background-color: blue;
+    border-radius: 30px;
+    padding: 10px;
+}
